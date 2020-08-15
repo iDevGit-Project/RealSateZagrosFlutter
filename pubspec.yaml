@@ -1,0 +1,124 @@
+name: RealSateZagros
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 00.04.04
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_svg: ^0.17.4
+  flutter_spinkit: "^4.1.2"
+
+  auto_animated: ^2.1.0
+  flutter_speed_dial_material_design: ^2.0.0
+
+  animated_theme_switcher: ^1.0.6
+  
+  line_awesome_flutter: ^1.0.1
+  
+  flutter_screenutil: ^2.1.0
+  connection_status_bar: ^1.1.2
+
+# START - Navigator Drawer LRT + RTL
+  flutter_zoom_drawer: ^1.0.3
+  flutter_platform_widgets: ^0.32.5
+ 
+  simple_animations: ^2.2.1
+  provider: ^4.1.2  
+# END - Navigator Drawer LRT + RTL
+
+
+  introduction_screen:
+    path: ../
+
+# START - Localization Languag LRT + RTL
+  flutter_localizations: 
+    sdk: flutter
+# END - Localization Languag LRT + RTL    
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icon/apartment.svg
+    - assets/icon/Home.svg
+    - assets/icon/byesell.svg
+    - assets/icon/coins.svg
+    - assets/icon/apartment1.svg
+    - assets/icon/Home1.svg
+    - assets/icon/byesell1.svg
+    - assets/icon/coins1.svg    
+    - assets/icon/zamin.svg
+    - assets/icon/navigation.svg
+    - assets/icon/report.svg
+    - assets/icon/update.svg 
+    - assets/icon/zamin1.svg
+    - assets/icon/Accountfilled.svg        
+    - assets/icon/navigation1.svg
+    - assets/icon/report1.svg    
+    - assets/icon/nav_home.svg
+    - assets/icon/nav_category.svg
+    - assets/icon/nav_alarm.svg
+    - assets/icon/nav_news.svg            
+    - assets/icon/OneSlider.png   
+    - assets/icon/twoSlider.png
+    - assets/icon/ThreeSlider.png
+    - assets/icon/FourSlider.png
+    - assets/icon/HomeSlider.png                
+
+
+  fonts:
+    - family: IRANSans
+      fonts:
+        - asset: assets/fonts/IRANSans-Light.ttf
+          weight: 500
+        - asset: assets/fonts/IRANSans-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/IRANSans-Bold.ttf
+          weight: 700
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/SFPro-Light.ttf
+          weight: 500
+        - asset: assets/fonts/SFPro-Regular.ttf
+          weight: 600
+        - asset: assets/fonts/SFPro-Bold.ttf
+          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
