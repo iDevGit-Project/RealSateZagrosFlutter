@@ -19,8 +19,8 @@ class DrawerMainHome extends StatelessWidget {
               currentAccountPicture: CircleAvatar(
                 backgroundColor: Color(0xFFD9E2FF),
                 child: Icon(Icons.info,
-                 size: 40, 
-                 color: Color(0xFF00153D)),
+                    //  size: 40,
+                    color: Color(0xFF00153D)),
               ),
               accountName: new Text("آژانس املاک زاگرس",
                   style: TextStyle(
@@ -68,7 +68,7 @@ class DrawerMainHome extends StatelessWidget {
             ListTile(
               leading: Icon(
                 Icons.library_books,
-                color: Color(0xFF00153D),              
+                color: Color(0xFF00153D),
               ),
               onTap: () {},
               subtitle: Text('نمایش کلیه دسته بندی ها',
@@ -168,7 +168,7 @@ class DrawerMainHome extends StatelessWidget {
                       color: Color(0xFF00153D))),
               title: Text('گزارش خطا',
                   style: TextStyle(
-                     height: 2.3,
+                    height: 2.3,
                     fontWeight: FontWeight.w800,
                     fontFamily: 'IRANSans',
                     fontSize: 18,
@@ -191,10 +191,10 @@ class DrawerMainHome extends StatelessWidget {
                     fontSize: 18,
                     color: Color(0xFF3547D6),
                   )),
-            ),     
+            ),
             Divider(
               color: Color(0xFFE4E9F8),
-            ),            
+            ),
             ListTile(
               title: Text('نسخه آزمایشی: 0.04.07',
                   style: TextStyle(
