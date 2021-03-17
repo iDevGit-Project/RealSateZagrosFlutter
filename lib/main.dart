@@ -1,4 +1,4 @@
-import 'dart:ui';
+import 'dart:ui' show Brightness, Color, FontWeight, Locale, Radius, Size;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:introduction_screen/introduction_screen.dart';
